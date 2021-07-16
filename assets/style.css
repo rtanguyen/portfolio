@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+    background-color: #FFFFFF;
+    /* background-color: #C1C0AC; */
+  
+    font-family: 'Noto Sans', sans-serif; 
+  }
+  
+  body {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  /*apply style to header/nav*/
+  header {
+    background-color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+  }
+  
+  header a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+  }
+  
+  header nav {
+    margin: 5px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    padding: 0 30px;
+  }
+  
+
+.home {
+    /* margin: 150px 250px 150px 0px; */
+    margin-top: 15%;
+    margin-left: 25%;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    justify-content: end;
+}
+
+.hero-bg {
+    background: rgb(251,151,232);
+    background: linear-gradient(58deg, rgba(251,151,232,0.8729866946778712) 7%, rgba(225,197,231,0.8421743697478992) 22%, rgba(0,255,245,0.7945553221288515) 32%, rgba(113,249,200,0.8393732492997199) 58%, rgba(232,226,136,0.9346113445378151) 78%, rgba(254,230,93,0.8589810924369747) 90%);
+    height: 150px;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+.contact-info ul, .contact-info li {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    background-color: transparent;
+  }
+  
+  .contact-list {
+    /* background-color: linear-gradient(58deg, rgba(251,151,232,0.8729866946778712) 7%, rgba(225,197,231,0.8421743697478992) 22%, rgba(0,255,245,0.7945553221288515) 32%, rgba(113,249,200,0.8393732492997199) 58%, rgba(232,226,136,0.9346113445378151) 78%, rgba(254,230,93,0.8589810924369747) 90%); */
+    width: 50px;
+    height: 50px;
+  
+  }  
+  
+  svg{
+    width: 50px;
+    height: 50px;
+  }
+  
+  
+  .svg-gradient{
+    fill: linear-gradient(58deg, rgba(251,151,232,0.8729866946778712) 7%, rgba(225,197,231,0.8421743697478992) 22%, rgba(0,255,245,0.7945553221288515) 32%, rgba(113,249,200,0.8393732492997199) 58%, rgba(232,226,136,0.9346113445378151) 78%, rgba(254,230,93,0.8589810924369747) 90%);
+    transform: translateY(-3px);
+  }
+  
+  svg-gradientL:hover {
+      opacity: 1.0;
+  }
+  
+  #svg-email:hover{
+    fill: #99B0A9;
+    transform: translateY(-3px);
+  }
