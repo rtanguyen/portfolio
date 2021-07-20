@@ -22,7 +22,7 @@
   /*apply style to header/nav*/
   header {
     background-color: #FFFFFF;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
@@ -64,7 +64,7 @@
 
 h1 {
   font-family: 'Roboto', sans-serif;  
-  font-size: 3rem!important;
+  font-size: 4rem!important;
 }
 
 .hero-bg {
@@ -186,7 +186,12 @@ h1 {
   
   }  
   
-  
+.copyright {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 5%;
+  margin-right: auto;
+}
   
   .svg-gradient{
     fill: linear-gradient(58deg, rgba(251,151,232,0.8729866946778712) 7%, rgba(225,197,231,0.8421743697478992) 22%, rgba(0,255,245,0.7945553221288515) 32%, rgba(113,249,200,0.8393732492997199) 58%, rgba(232,226,136,0.9346113445378151) 78%, rgba(254,230,93,0.8589810924369747) 90%);
@@ -224,7 +229,27 @@ h2, h3 {
 
 #about-me-text {
   font-family: 'Roboto Mono', monospace;
+}
 
+.skills-container {
+  width: 75%;
+}
+
+.skills-header {
+  margin: 0px 0px 32px;
+  border-bottom: 4px solid rgb(116, 253, 231);
+  font-size: 2rem;
+}
+
+.technical-skills {
+  display: flex;
+  justify-content:space-around;
+  width: 85%;
+}
+
+.ts-padding {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 ul {
@@ -241,7 +266,9 @@ ul {
   /* content: "▹"; */
   content: "▹";
   padding: 2px;
-  color: #5ee4d4;
+  /* color: #5ee4d4; */
+  /* color: #89857A; */
+  color: rgba(0, 0, 0, 0.541);
   margin-right: 15px;
 }
 
@@ -249,6 +276,7 @@ ul {
 	height: 62px;
 	position: relative;
   text-decoration: none;
+  margin-left: 0 !important;
 	/* top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%); */
@@ -302,5 +330,58 @@ ul {
 
 .res-btn:hover {
   text-decoration: none;
+}
+
+/* ======CONTACT======= */
+.contact {
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  /* font-size:; */
+}
+
+.contact-header {
+  text-align: center;
+  font-size: 100px !important;
+  font-weight: 200 !important;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-btns-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 55px;
+  text-align: center;
+}
+
+.contact-btns-container ul {
+  margin: auto;;
+  text-align: center;
+  height: 55px;
+
+}
+
+#contactBtns li {
+  display: inline;
+  list-style-type: none;
+  /* padding-right: 20px; */
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.spacer {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  width: 50px;
 }
 
