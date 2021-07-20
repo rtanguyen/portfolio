@@ -84,11 +84,14 @@ h1 {
   height: 100%;
 }
 
+.other-project {
+  height: 100%;
+}
+
 .feat-project-title {
   background-color: transparent !important;
   padding-top: 8% !important;
   padding-bottom: 8% !important;
-
 }
 
 .feat-project-container {
@@ -385,3 +388,23 @@ ul {
   width: 50px;
 }
 
+
+/* ======WORK======= */
+.work-links a:hover{
+  text-decoration: none;
+}
+
+.other-project-title {
+  height: 125px;
+  background-color: transparent !important;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  align-items: center;
+}
+
+.other-project-title svg {
+  margin: 0 auto;
+  display: block;
+
+}
