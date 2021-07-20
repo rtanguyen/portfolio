@@ -37,6 +37,10 @@
     font-family: 'Roboto Mono', monospace;
     font-size: 13px;
   }
+
+  header a:hover {
+    text-decoration: none;
+  }
   
   header nav {
     margin: 5px 0;
@@ -207,8 +211,10 @@ h1 {
   
   #svg-email:hover, #svg-linkedin:hover, #svg-github:hover {
     transform: translateY(-4px);
-  }
-
+    /* text-shadow: 0 5px 10px #888888; */
+    /* filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4)); */
+    filter: drop-shadow(0 3px 2px #bebdbdfd);
+}
 
   .about {
     /* margin: 150px 250px 150px 0px; */
