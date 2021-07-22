@@ -217,6 +217,81 @@ h1 {
     filter: drop-shadow(0 3px 2px #bebdbdfd);
 }
 
+/* ======ABOUT======= */
+
+@media (max-width: 1200px) {
+  .info-container {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  /* .col-lg-12 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .col-lg-12 img {
+    margin: 0 auto;
+  } */
+
+  /* .info-container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  } */
+
+  /* .col-md-6 {
+    margin: 0 auto;
+    display: flex;
+  } */
+  /* .bio-img {
+    margin: 0 auto;
+    display: flex;
+  } */
+}
+
+
+
+@media screen and (max-width: 992) {
+  .bio-img {
+    margin: 0 auto !important;
+    display: flex !important;
+  }
+
+
+  #info-container  {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: aqua;
+  }
+
+  .bio-img {
+    /* width: 50%; */
+    display: flex !important;
+    justify-content: center !important;
+
+  }
+  /* #img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  } */
+  
+  /* .img-container{
+    margin: 0 auto !important;
+    display: block !important;
+} */
+
+  /* .info-container img {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+}
+
+
   .about {
     /* margin: 150px 250px 150px 0px; */
     margin-top: 10%;
@@ -240,6 +315,10 @@ h2, h3 {
 #about-me-text {
   font-family: 'Roboto Mono', monospace;
 }
+
+/* .bio-img {
+  width: 100%;
+} */
 
 .skills-container {
   width: 75%;
