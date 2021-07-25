@@ -17,24 +17,21 @@
 
 	<body>
 		<header>
-      <div class="row justify-content-end">
-      <nav>
-        <ul>
-          <li>
-            <a href="index.html">home</a>
-          </li>
-          <li>
-            <a href="about.html">about</a>
-          </li>
-          <li>
-            <a href="#">projects</a>
-          </li>
-          <li>
-            <a href="contact.html">contact</a>
-          </li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid justify-content-end">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation" style="border: none">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">home</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="about.html">about</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="work.html">projects</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">contact</a></li>
+            </ul>
+          </div>
+        </div>
       </nav>
-    </div>
 		</header>
     <main>              
         <section>
@@ -88,7 +85,7 @@
                   <div class="col-4 col-sm-6">
                     <div class="card feat-project">
                       <div class="card-header text-center feat-project-title">
-                        <img src="assets/images/miso-hungry-favicon.png">
+                        <img src="assets/images/miso-hungry-favicon.png" class="img-fluid">
                       </div>
                       <div class="card-body feat-project-info my-3 position-relative">
                         <h5>Miso Hungry</h5>
@@ -262,6 +259,7 @@
         
 
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
   </body>
   </html>
