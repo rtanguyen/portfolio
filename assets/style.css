@@ -356,19 +356,20 @@ h2, h3 {
 } */
 
 .skills-container {
-  width: 75%;
+  width: 80% !important;
 }
 
 .skills-header {
   margin: 0px 0px 32px;
   border-bottom: 4px solid rgb(116, 253, 231);
   font-size: 2rem;
+  width: 85%;
 }
 
 .technical-skills {
   display: flex;
   justify-content:space-around;
-  /* width: 85%; */
+  width: 85%;
 }
 
 .ts-padding {
