@@ -46,6 +46,7 @@ header a:hover {
 .navbar {
   float: right !important;
   position: sticky !important;
+  position: -webkit-sticky !important;
 }
 
 .navbar-toggler:focus {
@@ -331,14 +332,6 @@ svg-gradientL:hover {
     background-color: aqua;
   }
 
-  .bio-img {
-    /* margin-left: auto !important;
-    margin-right: auto !important; */
-    display: block !important;
-    position: relative !important;
-    left: -50% !important;
-    /* justify-content: center !important; */
-  }
   #img-container {
     width: 100%;
     overflow: hidden;
@@ -362,6 +355,17 @@ svg-gradientL:hover {
     align-items: center;
     justify-content: center;
   } */
+}
+
+.bio-img {
+  /* margin-left: auto !important;
+  margin-right: auto !important; */
+  display: block !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  /* justify-content: center !important; */
 }
 
 .about,
