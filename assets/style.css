@@ -45,6 +45,7 @@ header a:hover {
 
 .navbar {
   float: right !important;
+  position: sticky !important;
 }
 
 .navbar-toggler:focus {
