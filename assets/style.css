@@ -108,6 +108,17 @@ header a:hover {
   justify-content: end;
 }
 
+@media screen and (max-width: 576px) {
+  .home {
+    margin-left: 0% !important;
+  }
+}
+
+/* @media (min-width: 768px) {
+  #home-section {
+      max-width: 720px;
+  }} */
+
 h1 {
   font-family: "Roboto", sans-serif;
   font-size: 4rem !important;
@@ -124,9 +135,10 @@ h1 {
     rgba(232, 226, 136, 0.9346113445378151) 78%,
     rgba(254, 230, 93, 0.8589810924369747) 90%
   );
-  height: 150px;
+  /* height: 150px; */
   width: 100%;
   font-family: "Roboto Mono", monospace;
+  /* display: contents; */
 }
 
 .subheader {
@@ -134,6 +146,9 @@ h1 {
   background-color: transparent;
 }
 
+.sh-p {
+  padding-bottom: 3.5rem;
+}
 .feat-project {
   height: 100%;
 }
@@ -154,6 +169,8 @@ h1 {
 
 .feat-project-container {
   padding-top: 4%;
+  margin-left: 0% !important;
+  margin-right: 0% !important;
 }
 
 .feat-project-info {
@@ -163,6 +180,14 @@ h1 {
 
 #work-section p {
   font-weight: 300;
+}
+
+@media screen and (max-width: 576px) {
+  .work {
+    width: 95% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
 }
 
 .badges {
@@ -338,7 +363,8 @@ svg-gradientL:hover {
   } */
 }
 
-.about {
+.about,
+.work {
   /* margin: 150px 250px 150px 0px; */
   margin-top: 10%;
   margin-left: 15%;
@@ -369,6 +395,31 @@ h3 {
 .skills-container {
   width: 80% !important;
 }
+
+@media screen and (max-width: 576px) {
+  .skills-container {
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0px !important;
+  }
+
+  .technical-skills {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .technical-skills > div {
+    /* max-width: fit-content; */
+    /* width: -moz-fit-content; */
+    max-width: 250px;
+  }
+}
+/* .technical-skills {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+} */
 
 .skills-header {
   margin: 0px 0px 32px;
